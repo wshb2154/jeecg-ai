@@ -1,21 +1,58 @@
-Jeecg AI应用平台
+中文 | [English](./README.en-US.md)
+
+Jeecg AI应用平台+零代码平台
 ===============
 
-当前最新版本： 1.0.0（发布日期：2025-12-05） 
+当前最新版本： 3.9.1（发布日期：2026-03-20） 
 
 
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/jeecgboot/JeecgBoot/blob/master/LICENSE)
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](https://jeecg.com)
 [![](https://img.shields.io/badge/blog-技术博客-orange.svg)](https://jeecg.blog.csdn.net)
-[![](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](https://github.com/jeecgboot/jeecg-ai)
+[![](https://img.shields.io/badge/version-3.9.1-brightgreen.svg)](https://github.com/jeecgboot/jeecg-ai)
 [![GitHub stars](https://img.shields.io/github/stars/jeecgboot/jeecg-ai.svg?style=social&label=Stars)](https://github.com/jeecgboot/jeecg-ai)
 [![GitHub forks](https://img.shields.io/github/forks/jeecgboot/jeecg-ai.svg?style=social&label=Fork)](https://github.com/jeecgboot/jeecg-ai)
 
 
+Jeecg-AI 是一套类似`Dify`的`AIGC应用平台`+`知识库问答`+`零代码应用搭建`，是一款基于大型语言模型和RAG技术的AI应用平台与零代码应用搭建平台，重点提供图文并茂的AI知识库和智能聊天功能，界面直观，支持知识库管理、AI流程编排、模型配置、向量库对接及实时运行监控、零代码业务系统搭建，帮助用户将知识转化为智能AI知识库，轻松实现精准智能问答。
 
-一个全栈式 AI 开发平台，旨在帮助开发者快速构建和部署个性化的 AI 应用。
 
-Jeecg-AI 是一套类似`Dify`的`AIGC应用开发平台`+`知识库问答`，是一款基于大型语言模型和RAG技术的AI应用平台，重点提供图文并茂的AI知识库和智能聊天功能，界面直观，支持知识库管理、AI流程编排、模型配置、向量库对接及实时运行监控，帮助用户将知识转化为智能AI知识库，轻松实现精准智能问答。
+- 一个全栈式 AI 开发平台，旨在帮助开发者快速构建和部署个性化的 AI 应用和零代码应用搭建。
+- 产品方向： AI应用平台与零代码产品结合，功能涵盖：AI应用平台、AI零代码应用搭建、AI报表、AI大屏、AI仪表盘、Chat2BI报表
+
+
+Jeecg AI应用平台可以做什么？
+-----------------------------------
+
+一款业内领先的综合性AI应用平台，深度融合AI技术与零代码开发理念，专为企业和开发者打造智能化、自动化的AI应用与零代码业务搭建平台。产品功能丰富，涵盖AI应用平台、零代码应用搭建平台、AI报表、AI大屏、移动报表及创新的Chat2BI等。
+
+平台核心优势在于强大的AI引擎，无需传统编程技能即可快速生成定制化应用系统，显著提升开发效率和业务响应速度。智能报表结合多维数据分析与可视化，助力企业深度洞察业务，辅助决策。AI大屏与仪表盘提供实时数据监控和交互，直观展现关键指标与趋势。
+
+创新的Chat2BI模块融合自然语言处理与报表分析，支持对话式数据查询、报表生成与知识库访问，实现智能问答与数据洞察的无缝结合，大幅提升用户体验和信息获取效率。
+
+整体而言，该平台不仅是AI应用搭建工具，更是集智能开发、数据分析与知识管理于一体的全方位解决方案，助力企业数字化转型与智能升级，打造未来业务核心竞争力。
+
+---
+
+
+Jeecg-AI `VS` JeecgBoot
+-----------------------------------
+
+> Jeecg-AI 是基于 JeecgBoot 精简而来的独立项目，专注于 AI 应用场景。
+
+#### 保留的功能模块
+AI应用（AIGC应用平台、知识库、流程编排、模型管理等）、Online表单、大屏设计、积木报表、系统管理
+
+#### 与 JeecgBoot 的核心区别
+
+| 区别项             | 说明                                                         |
+|------------------|--------------------------------------------------------------|
+| 示例代码           | 删除了大量示例代码和示例菜单（demo相关），项目更轻量             |
+| 微服务模块         | 删除了微服务模块（jeecg-server-cloud 整个移除，pom.xml 中无 SpringCloud profile） |
+| 数据库             | 库名为 `jeecgai`，菜单和权限数据经过精简，**不能直接用 JeecgBoot 的 SQL 覆盖** |
+| 专注方向           | 去掉非AI相关的冗余功能，聚焦 AI 应用平台 + 零代码场景           |
+
+---
 
 
 AI视频介绍
@@ -40,7 +77,7 @@ AI视频介绍
 
 - [AIGC开发文档](https://help.jeecg.com/aigc)
 - [安装向量库 pgvector](https://help.jeecg.com/aigc/config)
-- QQ交流群：  1044827970
+- QQ交流群：  964611995
 - 在线演示：  https://boot3.jeecg.com
 - 视频教程： https://www.bilibili.com/video/BV1zmd7YFE4w
 
